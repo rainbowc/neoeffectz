@@ -1,0 +1,714 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--====== Title ======-->
+    <title>NeoEffects - IT Solutions And Services Company</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{% static 'images/logo.png' %}" type="image/png">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!--====== animate css ======-->
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+
+    <!--====== Fontawesome css ======-->
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+    <!--====== nice select css ======-->
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+
+    <!--====== rangeSlider css ======-->
+    <link rel="stylesheet" href="{% static 'css/ion.rangeSlider.min.css' %}">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="{% static 'css/default.css' %}">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+</head>
+
+<body>
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader" id="preloader">
+        <div class="three ">
+            <div class="loader" id="loader">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART START ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+        <div class="header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="header-top-item d-flex justify-content-between">
+                            <div class="header-left-side">
+                                <p><i class="fal fa-bells"></i> Are you looking for a skilled web designer?</p>
+                            </div>
+                            <div class="header-right-social d-flex justify-content-end align-items-center">
+                                <ul class="d-none d-lg-block">
+                                    <li>
+                                        
+                                    </li>
+                                    <li>
+                                        <p><i class="fal fa-star"></i> Say Hello</p>
+                                    </li>
+                                </ul>
+                                <ul class="d-none d-sm-block">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://x.com/NeoeffectzS"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/neoeffectz/"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div> <!-- header top item -->
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="navigation">
+                            <nav class="navbar navbar-expand-lg navbar-light ">
+                                <!-- logo -->
+                                <a class="navbar-brand" href="{% url 'home' %}">
+                                    <img class="nav-logo" src="{% static 'images/logo.png' %}" alt=""> 
+                                    <h3 style="color: rgb(230, 230, 28);">Neoeffectz</h3> 
+                                </a> 
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                    <span class="toggler-icon"></span>
+                                </button> <!-- navbar toggler -->
+
+                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                    <ul class="navbar-nav m-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="{% url 'home' %}">Home </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{% url 'about' %}">about </a>
+                                        </li>
+                                        
+                                        
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div> <!-- navbar collapse -->
+                                <div class="navbar-btn d-none d-sm-block">
+                                    <a class="main-btn" href="{% url 'contact' %}">Consultations</a>
+                                </div>
+                            </nav>
+                        </div> <!-- navigation -->
+                    </div>
+                </div> <!-- row -->
+            </div>
+        </div>
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+    <!--====== BANNER PART START ======-->
+
+    <section class="banner-area">
+        <div class="banner-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-9">
+                        <div class="banner-content">
+                            <h1 class="title wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1s">Turning Digital Ideas <span>into <span>
+                                Realities</span></span> </h1>
+                            <span class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.5s">Have a Project?</span>
+                            <p class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2s">We are focused on creating bespoke & interactive web expereinces for aspiring & established businesses and enterprises.</p>
+                            <ul class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.6s" >
+                                <li><a class="main-btn" href="{% url 'contact' %}">Get a quote</a></li>
+                                <li><a class="main-btn main-btn-2" href="{% url 'about' %}">View Our Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-shape-1">
+        </div>
+        <div class="banner-shape-2">
+            <img src="{% static 'images/banner-shape-1.png' %}" alt="">
+        </div>
+        <div class="banner-shape-3">
+            <img src="{% static 'images/banner-shape-2.png' %}" alt="">
+        </div>
+    </section>
+
+    <!--====== BANNER PART ENDS ======-->
+
+
+    <!--====== ABOUT PART START ======-->
+
+    <section class="about-area pt-130 pb-130">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-thumb text-center">
+                        <img src="{% static 'images/about-us-image-3.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3 class="title">Let's Build Iconic future <span>Together <span>Ideally</span></span></h3>
+                        <span>We offer custom web designs—everything that your brand needs!</span>
+                        <p>Our digital solutions encompass website development and all the digital experiences in between. We align our services with your business objectives and winning the hearts of your customers</p>
+
+                        <ul>
+                            <li><a class="main-btn " href="{% url 'about' %}">Learn More</a></li>
+                            <li><a class="" href="{% url 'contact' %}">Let’s Get Started <i class="fal fa-long-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== FEATURES PART START ======-->
+
+    <section class="features-area pb-130 bg_cover">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title section-title-2  text-center">
+                        <h2 class="title">We Offer Web Solutions <span>Safe And <span>Sustainable</span></span></h2>
+                        <p>Use our skills and expertise to set your website in motion from scratch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="features-item text-center white-bg mt-30 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="0ms">
+                        <i class="fal fa-pencil-ruler"></i>
+                        <h4 class="title">Logo & Branding</h4>
+                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="features-item text-center white-bg mt-30 item-2 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="300ms">
+                        <i class="fal fa-desktop"></i>
+                        <h4 class="title">Website Design</h4>
+                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="features-item text-center white-bg mt-30 item-3 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="600ms">
+                        <i class="fal fa-shopping-cart"></i>
+                        <h4 class="title">E-commerce</h4>
+                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="features-item text-center white-bg mt-30 item-4 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="900ms">
+                        <i class="fal fa-browser"></i>
+                        <h4 class="title">Web Application</h4>
+                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== FEATURES PART ENDS ======-->
+
+    <!--====== PROJECT PART START ======-->
+
+    <section class="project-case-area project-home pt-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center">
+                        <h2 class="title">Success Stories <span>Explore <span>Our Works</span></span></h2>
+                        <p>We’d love to hear about your product or software initiative</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="project-case-item mt-30">
+                        <div class="project-case-thumb">
+                            <img src="{% static 'images/loftyheights.png' %}" alt="">
+                            <i class="fal fa-stars"></i>
+                        </div>
+                        <div class="project-case-content text-center">
+                            <img src="{% static 'images/project-shadow.png' %}" alt="">
+                            <h4 class="title">LoftyHeights Shipments</h4>
+                            <span>Content Management System</span>
+                            <p>LoftyHeights Shipments is a  Content Management System that handles various aspects of your business, such as tracking shipments, managing customer orders, and ensuring smooth operations</p>
+                            <a href="https://loftyheightsshipments.site/" target="_blank">Explore <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="project-case-item mt-30">
+                        <div class="project-case-thumb">
+                            <img src="{% static 'images/gladlenpro.png' %}" alt="">
+                            <i class="fal fa-stars"></i>
+                        </div>
+                        <div class="project-case-content text-center">
+                            <img src="{% static 'images/project-shadow.png' %}" alt="">
+                            <h4 class="title">GladlenPro Foods</h4>
+                            <span>E-commerce</span>
+                            <p>GladlenPro Food serves as a marketplace, connecting residents in bustling urban areas with natural and fresh foods.They have partnerships with sellers that showcase standardized products</p>
+                            <a href="https://food.gladlenpro.com/" target="_blank">Explore <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="project-case-item mt-30">
+                        <div class="project-case-thumb">
+                            <img src="{% static 'images/degentralized.png' %}" alt="">
+                            <i class="fal fa-stars"></i>
+                        </div>
+                        <div class="project-case-content text-center">
+                            <img src="{% static 'images/project-shadow.png' %}" alt="">
+                            <h4 class="title">Degentralizd</h4>
+                            <span>Fintech</span>
+                            <p>Connect an AI to your exchange account and mine crypto and airdrops automatically. The platform is trusted by millions worldwide, and features an unmatched portfolio of financial product offerings</p>
+                            <a href="https://degentralizd.pythonanywhere.com/" target="_blank">Explore <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== PROJECT PART START ======-->
+
+    <!--====== FACT PART START ======-->
+
+    <section class="fact-area pt-80 pb-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="fact-item mt-30">
+                        <h3 class="title"><span class="counter">50</span> +</h3>
+                        <span>Project Delivered</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="fact-item mt-30">
+                        <h3 class="title"><span class="counter">35</span> +</h3>
+                        <span>Happy Clients</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="fact-item mt-30">
+                        <h3 class="title"><span class="counter">99</span> %</h3>
+                        <span>Client Satisfaction Rate</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="fact-item mt-30">
+                        <h3 class="title"><span class="counter">20</span> +</h3>
+                        <span>In-House Talent</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== FACT PART ENDS ======-->
+
+   
+
+    
+
+    <!--====== WORKING PROCESS PART START ======-->
+
+    <section class="working-process">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center">
+                        <h2 class="title">Our Website <span>Development <span>Process</span></span></h2>
+                        <p>We follow a bespoke process from start to finish</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="working-item text-center item-1">
+                        <i class="fal fa-head-side-brain"></i>
+                        <h5 class="title">Idea Generator</h5>
+                        <p>Our team wil perform research and discovery plan and inform the phases of the project</p>
+                        <div class="dot-1">
+                            <img src="{% static 'images/working-dot-1.png' %}" alt="working">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="working-item text-center item-2">
+                        <i class="fal fa-layer-group"></i>
+                        <h5 class="title">Info Collect</h5>
+                        <p>This includes collecting details about your brand identity, Domain name, existing content, branding guidelines, design preferences, and functionality requirements.</p>
+                        <div class="dot-2">
+                            <img src="{% static 'images/working-dot-2.png' %}" alt="working">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="working-item text-center item-3">
+                        <i class="fal fa-unicorn"></i>
+                        <h5 class="title">Development</h5>
+                        <p>This involves developing the web version of the site on our staging server</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="working-item text-center item-4">
+                        <i class="fal fa-upload"></i>
+                        <h5 class="title">Launch</h5>
+                        <p>The website undergoes full Q&A and interoperability test procedure ensuring optimal performance before launch</p>
+                        <div class="dot-3">
+                            <img src="{% static 'images/working-dot-1.png' %}" alt="working">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <div class="shape-3"></div>
+        <div class="shape-4"></div>
+    </section>
+
+    <!--====== WORKING PROCESS PART ENDS ======-->
+
+    <!--====== QUOTE PART START ======-->
+
+    <section class="quote-area pt-130 pb-130">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="quote-thumb">
+                        <img src="{% static 'images/get-quote.png' %}" alt="quote">
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="quote-content">
+                        <h3 class="title">Get A Quote <br> <span>Free <span>Consultations</span></span></h3>
+                        <form action="#">
+                            <div class="input-box mt-25">
+                                <label for="#">What's Your Number</label>
+                                <input type="text" placeholder="08xxxxxxxx">
+                                <i class="fal fa-user"></i>
+                            </div>
+                            
+                            <div class="input-box mt-25">
+                                <label for="#">I Would Like To Discuss</label>
+                                <input type="text" placeholder="I’m Talking About">
+                                <i class="fal fa-file"></i>
+                            </div>
+                            <div class="input-box mt-25">
+                                <label for="#">Leave A Message</label>
+                                <textarea name="#" id="#" cols="30" rows="10" placeholder="Write Message"></textarea>
+                                <i class="fal fa-pen-alt"></i>
+                            </div>
+                            <div class="submit-btn text-right mt-20">
+                                <button type="submit" class="main-btn">Send Mesage</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== QUOTE PART ENDS ======-->
+
+    <!--====== TESTIMONIALS PART START ======-->
+
+    <section class="testimonial-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center">
+                        <h2 class="title">References <span>Client  <span>Reviews</span></span></h2>
+                        <p>Good things our clients say about us</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row testinonials-active">
+                <div class="col-lg-4">
+                    <div class="testimonial-item white-bg text-center mt-70">
+                        <img src="{% static 'images/find-us-logo.png' %}" alt="testimonial">
+                        <div class="star d-flex justify-content-center">
+                            <span>(</span>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span>)</span>
+                        </div>
+                        <p>They created virtually appealing designs from scracth and made them look complete and coherent in only three weeks</p>
+                        <h6 class="title">CEO | Find Us</h6>
+                        <i class="fal fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item white-bg text-center mt-70">
+                        <img src="{% static 'images/gladlenprofood-logo.png' %}" alt="testimonial">
+                        <div class="star d-flex justify-content-center">
+                            <span>(</span>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span>)</span>
+                        </div>
+                        <p>The team impressed with their ability to understand complex concepts. They also established an efficeint workflow despite the differnce in time</p>
+                        <h6 class="title">Director | GladlenPro Food </h6>
+                        <i class="fal fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item white-bg text-center mt-70">
+                        <img src="{% static 'images/thehub-logo.png' %}" alt="testimonial">
+                        <div class="star d-flex justify-content-center">
+                            <span>(</span>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span>)</span>
+                        </div>
+                        <p>Our 2 year partnership is enough proof that we find Neoeffectz Integrated Solutions as a goal oriented and reliable team</p>
+                        <h6 class="title">Executuve Director | Thehubng</h6>
+                        <i class="fal fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item white-bg text-center mt-70">
+                        <img src="{% static 'images/degentrlized-logo.png' %}" alt="testimonial">
+                        <div class="star d-flex justify-content-center">
+                            <span>(</span>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span>)</span>
+                        </div>
+                        <p>They took time to fully understand our requiremnets and this is reflected in a fresh and innovative website, We would have no hesitation recommending them</p>
+                        <h6 class="title">CEO | Degentralized Wallet</h6>
+                        <i class="fal fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item white-bg text-center mt-70">
+                        <img src="{% static 'images/maxine&max-logo.png' %}" alt="testimonial">
+                        <div class="star d-flex justify-content-center">
+                            <span>(</span>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span>)</span>
+                        </div>
+                        <p>For any issue they responded promptly and the service is brilliant. I would highly recommend Neoeffectz Integrated Solutions for any website design</p>
+                        <h6 class="title">Groom | Maxine & Ma’aku</h6>
+                        <i class="fal fa-quote-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== TESTIMONIALS PART ENDS ======-->
+
+    
+
+    <!--====== REQUEST QUOTE PART START ======-->
+
+    <section class="requst-quote-area bg_cover pt-115" style= "background-image: url('{% static "images/about-us-bg-3.png" %}');">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="requst-content text-center">
+                        <span>Get A Quote</span>
+                        <h2 class="title">Free Consultations</h2>
+                        <a class="main-btn-2 main-btn" href="#">Requst A Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="newaletter-area">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-12">
+                    <div class="newaletter-item d-sm-flex d-block">
+                        <div class="newaletter-content d-flex align-items-center">
+                            <div class="item pl-70">
+                                <span>Newsletter</span>
+                                <h4 class="title">Subscribe</h4>
+                            </div>
+                        </div>
+                        <div class="newaletter-input d-sm-flex d-block justify-content-center align-items-center">
+                            <input type="email" placeholder="Enter your email">
+                            <button class="main-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== REQUEST QUOTE PART ENDS ======-->
+
+    <!--====== BRAND PART START ======-->
+
+    <div class="brand-area pb-130">
+        <div class="container">
+            <div class="row brand-active">
+                <div class="col-lg-2">
+                    <div class="brand-item text-center">
+                        <img src="{% static 'images/findus-brand.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brand-item text-center">
+                        <img src="{% static 'images/gladlenfood-brand.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brand-item text-center">
+                        <img src="{% static 'images/thehub-brand.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brand-item text-center">
+                        <img src="{% static 'images/maxine-brand.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brand-item text-center">
+                        <img src="{% static 'images/degentralized-brand.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brand-item text-center">
+                        <img src="{% static 'images/allen-brand.png' %}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="brand-item text-center">
+                        <img src="{% static 'images/allen-brand.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== BRAND PART ENDS ======-->
+
+
+<!--====== FOOTER PART START ======-->
+
+<footer class="footer-area pt-80">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-copyright">
+                    <span><i class="fal fa-phone-office"></i> +2348145858941</span>
+                    <p>Copyright ©2022. All Rights Reserved by Neoeffects</p>
+                </div>
+                <div class="back-top">
+                    <a href="#" class="back-to-top">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> 
+
+<!--====== FOOTER PART ENDS ======-->
+
+<!--====== jquery js ======-->
+<script src="{% static 'js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+
+<!--====== Bootstrap js ======-->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+
+<!--====== Slick js ======-->
+<script src="{% static 'js/slick.min.js' %}"></script>
+
+<!--====== counterup js ======-->
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+
+<!--====== nice select js ======-->
+<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+
+<!--====== waypoints js ======-->
+<script src="{% static 'js/waypoints.min.js' %}"></script>
+
+<!--====== rangeSlider js ======-->
+<script src="{% static 'js/ion.rangeSlider.min.js' %}"></script>
+
+<!--====== wow js ======-->
+<script src="{% static 'js/wow.min.js' %}"></script>
+
+<!--====== Magnific Popup js ======-->
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+
+<!--====== Ajax Contact js ======-->
+<script src="{% static 'js/ajax-contact.js' %}"></script>
+
+<!--====== Main js ======-->
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

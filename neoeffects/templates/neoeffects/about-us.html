@@ -1,0 +1,334 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+    <!--====== FAQ PART START ======-->
+
+    <section class="banner-area page-title bg_cover" style="background-image: url('{% static "images/about-us-background.png" %}');">
+        <div class="banner-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-title-content">
+                            <h3 class="title">About Us</h3>
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="{% url 'home' %}">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-shape-1">
+        </div>
+        <div class="banner-shape-2">
+            <img src="{% static 'images/banner-shape-1.png' %}" alt="">
+        </div>
+        <div class="banner-shape-3">
+            <img src="{% static 'images/banner-shape-2.png' %}" alt="">
+        </div>
+    </section>
+   
+    
+
+    <!--====== FAQ PART ENDS ======-->
+<section class="what-we-offer">
+        <div class="what-we-offer-container">
+            <div class="what-we-offer-img">
+                <div class="child-1">
+                    <img src="{% static 'images/about-us-8.png' %}" alt="">
+                </div>
+                <div class="child-2">
+                    <img src="{% static 'images/about-us-9.png' %}" alt="">
+                </div>           
+            </div>
+            <div class="what-we-offer-text">
+                <span>OUR VISION</span>
+                <h2>Web Design Services <br> Tailored To You.</h2>
+                
+                <div class="child-1"> 
+                <p>We're a diverse bunch of individuals with a passion for <br> creating brands and websites we can all be proud of. <br> Get in touch – we can’t wait to meet you</p>
+                    
+            </div>
+            <div class="web-solutions">
+                <div class="child-1">
+                    <div class="web-1">
+                        <img class="img-1" src="{% static 'images/icons8-result-50.png' %}" alt="">
+                        <div class="child-3">
+                            <h4>Result Driven </h4>
+                            <p>Our team are trained in agile <br> project management, and we work <br> round-the-clock to deliver on time</p>
+
+                        </div>
+                        
+                    </div>
+                    <div class="web-2">
+                        <img class="img-1" src="{% static 'images/icons8-innovative-50.png' %}" alt="">
+                        <div class="child-4">
+                            <h4>Innovative</h4>
+                            <p>Good enough isn’t enough for us. <br> We create exceptional work that <br> stands out from the crowd</p>
+
+
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="child-2">
+                    <p>Trusted By  <br>Our Clients</p>
+                </div>
+            </div>
+            <div class="what-we-offer-button">
+                <a href="{% url 'contact' %}" class="btn btn-base">Join Us</a>  
+            </div>
+            
+
+        </div>
+
+
+        </div>
+
+        
+
+    </section>
+
+    <!--====== SERVICES PART START ======-->
+   
+    <section class="services-area services-about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="services-item text-center mt-30 wow fadeIn" data-wow-duration="1500ms" data-wow-delay="0ms">
+                        <h3 class="title">Web Design <br> And Development</h3>
+                        <i class="fal fa-laptop-code"></i>
+                        <p>All our websites are coded on a light framework that has been coded by our expeerienced developers</p>
+                        <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="services-item text-center mt-30 wow fadeIn" data-wow-duration="1500ms" data-wow-delay="400ms">
+                        <h3 class="title">User Product <br> Design Strategy</h3>
+                        <i class="fal fa-umbrella-beach"></i>
+                        <p>We have a design process which considers our client's feedback at every stage ensuring your website is unique</p>
+                        <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="services-item text-center mt-30 wow fadeIn" data-wow-duration="1500ms" data-wow-delay="800ms">
+                        <h3 class="title">High Server <br> Security Solutions</h3>
+                        <i class="fal fa-server"></i>
+                        <p>Security of your website and it's data is a key consideration of our website development process</p>
+                        <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== ABOUT HISTORY PART START ======-->
+   
+    <section class="about-history-area pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center">
+                        <h2 class="title">Company History <span>knows About <span>History</span></span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="history-tab-btn">
+                        <ul class="nav nav-pills d-flex justify-content-center mb-60" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="pills-1-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-2-tab" data-toggle="pill" href="#pills-2" role="tab" aria-controls="pills-2" aria-selected="false">Interactive Websites</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-3-tab" data-toggle="pill" href="#pills-3" role="tab" aria-controls="pills-3" aria-selected="false">Sustainable Web Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-4" aria-selected="false">SEO Optimized Websites</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                              <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                                  <div class="row align-items-center">
+                                      <div class="col-lg-5">
+                                          <div class="history-thumb">
+                                              <img src="{% static 'images/about-us-1.png' %}" alt="history">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-7">
+                                          <div class="history-content pl-30">
+                                              <h3 class="title">Creating Innovative Solutions with Passion and Commitment</h3>
+                                              <p>We're here to create solutions that not only meet but exceed your expectations. We are focused on excellence and dedicated to understanding your unique challenges, we work closely with you from start to finish. Partner with us to discover how our expertise can help you achieve your business goals.</p>
+                                              
+                                          </div>
+                                      </div>
+                                      
+                                  </div>
+                              </div>
+                              <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                                  <div class="row align-items-center">
+                                      <div class="col-lg-5">
+                                          <div class="history-thumb">
+                                              <img src="{% static '/images/animation.png' %}" alt="history">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-7">
+                                          <div class="history-content pl-30">
+                                              <h3 class="title">Transform Your Online Presence with Interactive Animations</h3>
+                                              <p>We create integrative websites with engaging animations and reactive interactivity creating better site engagement.Our focus is on creating engaging user experiences that elevate site engagement and captivate your audience. Partner with us to redefine your online presence and leave a lasting impression.</p>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                                  <div class="row align-items-center">
+                                      <div class="col-lg-5">
+                                          <div class="history-thumb">
+                                              <img src="{% static 'images/sustainability.png' %}" alt="history">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-7">
+                                          <div class="history-content pl-30">
+                                              <h3 class="title">Designing Sustainable Websites</h3>
+                                              <p>We deisgn and develop our websites with substainabilty in mind ensuring we create websistes that reduce website carbon and better ESG. we strive to build platforms that promote eco-friendly practices while enhancing your online presence and user experience. Partner with us to create a website that aligns with your sustainability objectives</p>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                                  <div class="row align-items-center">
+                                      <div class="col-lg-5">
+                                          <div class="history-thumb">
+                                              <img src="{% static 'images/SEO.png' %}" alt="history">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-7">
+                                          <div class="history-content pl-30">
+                                              <h3 class="title">Building High-Ranking SEO Websites. </h3>
+                                              <p>We build SEO websites that rank. we empower businesses to strengthen their online presence and achieve their digital marketing goals. Partner with us to take your SEO strategy to the next level and dominate search engine results</p>
+                                              
+                                          </div>
+                                      </div>
+                                  </div>
+                                  
+                              </div>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--====== ABOUT HISTORY PART ENDS ======-->
+
+   
+                                                  
+    <!--====== REQUEST QUOTE PART START ======-->
+    
+   
+    <section class="requst-quote-area about-quote bg_cover pt-115" style="background-image: url('{% static "images/about-us-bg-3.png" %}');">
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="requst-content text-center">
+                        <span>Get A Quote</span>
+                        <h2 class="title">Free Consultations</h2>
+                        <a class="main-btn-2 main-btn" href="{% url 'contact' %}">Requst A Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="newaletter-area">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-12">
+                    <div class="newaletter-item d-sm-flex d-block">
+                        <div class="newaletter-content d-flex align-items-center">
+                            <div class="item pl-70">
+                                <span>Newsletter</span>
+                                <h4 class="title">Subscribe</h4>
+                            </div>
+                        </div>
+                        <div class="newaletter-input d-sm-flex d-block justify-content-center align-items-center">
+                            <input type="email" placeholder="Enter your email">
+                            <button class="main-btn">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== REQUEST QUOTE PART ENDS ======-->
+
+    <!--====== COUNTER PART START ======-->
+   
+    <section class="counter-area about-counter">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="counter-play mr-70">
+                        <img src="{% static '/images/Youtube-placeholder.png' %}" alt="">
+                        <a class="video-popup" href="https://www.youtube.com/watch?v=FHIEk3yomTw"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="counter-item">
+                                <i class="fal fa-users"></i>
+                                <h3 class="title counter">9</h3>
+                                <span>Repeat Client</span>
+                            </div>
+                            <div class="counter-item mt-60">
+                                <i class="fal fa-hat-santa"></i>
+                                <h3 class="title counter">4</h3>
+                                <span>Countries Served</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="counter-item">
+                                <i class="fal fa-users"></i>
+                                <h3 class="title counter">20</h3>
+                                <span>Support Tickets</span>
+                            </div>
+                            <div class="counter-item mt-60">
+                                <i class="fal fa-trophy-alt"></i>
+                                <h3 class="title counter">15</h3>
+                                <span>Client Testimonials</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--====== COUNTER PART ENDS ======-->
+
+    <!--====== BRAND PART START ======-->
+   
+    
+    <!--====== BRAND PART ENDS ======-->
+
+
+{% endblock %}
+

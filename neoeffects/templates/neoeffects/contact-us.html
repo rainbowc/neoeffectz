@@ -1,0 +1,168 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+
+<section class="banner-area page-title bg_cover" style="background-image: url('{% static "images/contact-us-bg.png" %}');">
+    <div class="banner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-content">
+                        <h3 class="title">Contact Us</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-shape-1">
+    </div>
+    <div class="banner-shape-2">
+        <img src="{% static '/images/banner-shape-1.png' %}" alt="">
+    </div>
+    <div class="banner-shape-3">
+        <img src="{% static '/images/banner-shape-2.png' %}" alt="">
+    </div>
+</section>
+
+
+    <!--====== CONTACT INFO PART START ======-->
+   
+    <section class="contact-info-area pt-130 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-sm-8">
+                    <div class="contact-info-border">
+                        <div class="row">
+                            
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact-info-item text-center active">
+                                    <i class="fal fa-envelope"></i>
+                                    <ul>
+                                        <li>support@neoeffectz.com</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="contact-info-item text-center">
+                                    <i class="fal fa-phone"></i>
+                                    <ul>
+                                        <li>+2348145858941</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 order-2 order-lg-1">
+                    <div class="contact-thumb mt-30">
+                        <img src="{% static '/images/Contact-Us.png' %}" alt="">
+                        <div class="contact-text">
+                            <h3 class="title">Leave A <br> Message</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 order-1 order-lg-2">
+                    <div class="contact-massage-area mt-30 pl-70">
+                        <div class="contact-massage-content">
+                            <h3 class="title">Send A Message</h3>
+                            <p>Do you have a project in mind that you feel our approach would work well for? We are always happy to discuss your project with you and put together a free proposal, Just fill out the form below or give us a call to get started</p>
+                            
+                        </div>
+                        <form id="contact-form" action="{% url 'contact' %}" method="post">
+                            {%csrf_token%}
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="input-box mt-20">
+                                        <input name="name" type="text" placeholder="Your Full Name">
+                                        <i class="far fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="input-box mt-20">
+                                        <input name="email" type="text" placeholder="Your Email ">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="input-box mt-20">
+                                        <input name="phone_number" type="text" placeholder="Phone Number ">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="input-box mt-20">
+                                        <textarea name="content" id="#" cols="30" rows="10" placeholder="Write Message"></textarea>
+                                        <i class="far fa-pencil"></i>
+                                        <button class="main-btn" type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="form-message"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--====== CONTACT INFO PART ENDS ======-->
+
+    <!--====== CONTACT MAP PART START ======-->
+   
+    <div class="contact-map-area">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d127669.92284812348!2d3.3711!3d6.5095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1577214205224!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+                        <i class="fal fa-map-marker-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!--====== CONTACT MAP PART ENDS ======-->
+
+    <!--====== REQUEST QUOTE PART START ======-->
+   
+    <section class="requst-quote-area services-quote bg_cover pt-115" style="background-image: url('{% static "images/about-us-bg-3.png" %}');">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="requst-content text-center">
+                        <span>Get A Quote</span>
+                        <h2 class="title">Free Consultations</h2>
+                        <a class="main-btn-2 main-btn" href="#">Requst A Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====== REQUEST QUOTE PART ENDS ======-->
+
+   
+
+    
+
+
+
+
+
+
+
+{% endblock %}
