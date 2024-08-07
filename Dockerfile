@@ -18,4 +18,7 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
+# Collect static files
+RUN python manage.py collectstatic --noinput
+
 ENTRYPOINT ["gunicorn", "portfolio.wsgi", "-b", "0.0.0.0:8000"]
