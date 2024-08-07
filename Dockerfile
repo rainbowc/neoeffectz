@@ -16,9 +16,10 @@ RUN pip install --upgrade pip
 COPY ./requirements.txt /app/
 RUN pip install -r requirements.txt
 
+# Copy the application code
 COPY . /app
 
 # Collect static files
 RUN python manage.py collectstatic --noinput
 
-ENTRYPOINT ["gunicorn", "portfolio.wsgi", "-b", "0.0.0.0:8000"]
+ENTRYPOINT ["gunicorn", "portfolio.wsgi:application", "-b", "0.0.0.0:8000"]
