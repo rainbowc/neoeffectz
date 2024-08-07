@@ -130,3 +130,6 @@ MEDIA_ROOT = BASE_DIR / 'neoeffects' / 'static' / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+WHITENOISE_ALLOW_ALL_ORIGINS = True
+
