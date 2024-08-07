@@ -126,6 +126,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'neoeffects/static')
 ]
 
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 #media settings
 MEDIA_URL = '/media/'
 
