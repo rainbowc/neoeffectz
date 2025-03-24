@@ -44,6 +44,9 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
 
 </head>
 
@@ -83,10 +86,10 @@
                                         </li>
                                     </ul>
                                     <ul class="d-none d-sm-block">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                                        <li><a href="https://web.facebook.com/profile.php?id=61558313637951"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://x.com/NeoeffectzS"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="https://www.instagram.com/neoeffectz/"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="https://www.tiktok.com/@neoeffectz?_t=ZM-8uu8qnfkgUP&_r=1"><i class="fab fa-tiktok"></i></a></li>
                                     </ul>
                                 </div>
                             </div> <!-- header top item -->
@@ -168,6 +171,25 @@
                         </a>
                     </div>
                 </div>
+                <div id="whatsapp-chat">
+                    <a href="https://wa.me/2348012345678" target="_blank">
+                        <img src="{% static 'images/whatsapp.png' %}" alt="Chat with us">
+                    </a>
+                </div>
+                
+                <style>
+                    #whatsapp-chat {
+                        position: fixed;
+                        bottom: 20px;
+                        right: 20px;
+                        z-index: 1000;
+                    }
+                    #whatsapp-chat img {
+                        width: 50px;
+                        height: 50px;
+                        cursor: pointer;
+                    }
+                </style>
             </div>
         </div>
     </footer> 

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Allow: /
+
+Sitemap: https://neoeffectz-1wga.onrender.com/sitemap.xml

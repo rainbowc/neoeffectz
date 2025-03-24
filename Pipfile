@@ -8,7 +8,7 @@ whitenoise = "*"
 gunicorn = "*"
 psycopg2 = "*"
 dj-database-url = "*"
-django = "==3.2"
+django = "*"
 psycopg2-binary = "*"
 
 [dev-packages]

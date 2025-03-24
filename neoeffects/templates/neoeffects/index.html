@@ -5,14 +5,46 @@
 
     <!--====== Required meta tags ======-->
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Optimization -->
+    <meta name="description" content="Neoeffectz offers expert website design for small businesses in Lagos. Get a high-converting website that grows your brand and attracts customers.">
+    <meta name="keywords" content="Website design for small businesses in Lagos, small business web design, Lagos website development, affordable web design Lagos, SEO services Nigeria">
+    <meta name="author" content="Neoeffectz">
+
+    <!-- Open Graph (for Social Media Preview) -->
+    <meta property="og:title" content="Website Design for Small Businesses in Lagos | Neoeffectz">
+    <meta property="og:description" content="Get a professional website for your small business in Lagos. Neoeffectz provides high-quality, SEO-optimized web design that drives sales and visibility.">
+    <meta property="og:image" content="{% static 'images/seo-preview.png' %}">
+    <meta property="og:url" content="https://neoeffectz-1wga.onrender.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="canonical" href="https://neoeffectz-1wga.onrender.com/">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Neoeffectz Integrated Solutions",
+          "url": "https://neoeffectz-1wga.onrender.com/",
+          "logo": "https://neoeffectz-1wga.onrender.com/static/images/logo.png",
+          "sameAs": [
+            "https://www.facebook.com/yourpage",
+            "https://www.instagram.com/yourpage",
+            "https://www.linkedin.com/company/yourpage"
+          ]
+        }
+        </script>
+        
+
+
+    <title>Website Design for Small Businesses in Lagos | Neoeffectz</title>
+
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-    <!--====== Title ======-->
-    <title>NeoEffects - IT Solutions And Services Company</title>
+    
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="{% static 'images/logo.png' %}" type="image/png">
@@ -43,6 +75,9 @@
 
     <!--====== Style css ======-->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 
 
 </head>
@@ -83,9 +118,10 @@
                                     </li>
                                 </ul>
                                 <ul class="d-none d-sm-block">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://web.facebook.com/profile.php?id=61558313637951"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="https://x.com/NeoeffectzS"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="https://www.instagram.com/neoeffectz/"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.tiktok.com/@neoeffectz?_t=ZM-8uu8qnfkgUP&_r=1"><i class="fab fa-tiktok"></i></a></li>
                                 </ul>
                             </div>
                         </div> <!-- header top item -->
@@ -145,28 +181,37 @@
                 <div class="row">
                     <div class="col-lg-7 col-md-9">
                         <div class="banner-content">
-                            <h1 class="title wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1s">Turning Digital Ideas <span>into <span>
-                                Realities</span></span> </h1>
-                            <span class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.5s">Have a Project?</span>
-                            <p class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2s">We are focused on creating bespoke & interactive web expereinces for aspiring & established businesses and enterprises.</p>
-                            <ul class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.6s" >
-                                <li><a class="main-btn" href="{% url 'contact' %}">Get a quote</a></li>
-                                <li><a class="main-btn main-btn-2" href="{% url 'about' %}">View Our Portfolio</a></li>
+                            <h1 class="title wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1s">
+                                Website Design for Small Businesses in Lagos –  
+                                Build a Strong Online Presence
+                            </h1>
+                            <span class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.5s">
+                                Need a Website for Your Business?
+                            </span>
+                            <p class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2s">
+                                Neoeffectz specializes in <strong>affordable website design for small businesses in Lagos</strong>. 
+                                We create stunning, mobile-friendly, and SEO-optimized websites that help small businesses grow 
+                                and attract more customers.
+                            </p>
+                            <ul class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="2.6s">
+                                <li><a class="main-btn" href="{% url 'contact' %}">Get a Free Quote</a></li>
+                                <li><a class="main-btn main-btn-2" href="https://wa.me/2348145858941">&#128222 Call: 08145858941</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="banner-shape-1">
-        </div>
+        <div class="banner-shape-1"></div>
         <div class="banner-shape-2">
-            <img src="{% static 'images/banner-shape-1.png' %}" alt="">
+            <img src="{% static 'images/banner-shape-1.png' %}" alt="Website design for small businesses">
         </div>
         <div class="banner-shape-3">
-            <img src="{% static 'images/banner-shape-2.png' %}" alt="">
+            <img src="{% static 'images/banner-shape-2.png' %}" alt="Affordable website design in Lagos">
         </div>
     </section>
+    
+    
 
     <!--====== BANNER PART ENDS ======-->
 
@@ -178,24 +223,25 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-thumb text-center">
-                        <img src="{% static 'images/about-us-image-2.png' %}" alt="">
+                        <img src="{% static 'images/a-man-holding-phone.png' %}" alt="Professional web designer in Lagos" style="border-radius: 30px;">
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="about-content">
-                        <h3 class="title">Let's Build Iconic future <span>Together <span>Ideally</span></span></h3>
-                        <span>We offer custom web designs—everything that your brand needs!</span>
-                        <p>Our digital solutions encompass website development and all the digital experiences in between. We align our services with your business objectives and winning the hearts of your customers</p>
-
+                        <h3 class="title">Empowering Small Businesses with <span>Professional <span>Web Design</span></span></h3>
+                        <p>We specialize in <strong>affordable website design for small businesses in Lagos</strong>, helping brands establish a strong online presence. 
+                        From modern, mobile-friendly designs to SEO optimization, we create websites that attract customers and drive business growth.</p>
+    
                         <ul>
-                            <li><a class="main-btn " href="{% url 'about' %}">Learn More</a></li>
-                            <li><a class="" href="{% url 'contact' %}">Let’s Get Started <i class="fal fa-long-arrow-right"></i></a></li>
+                            <li><a class="main-btn" href="{% url 'contact' %}">Get a Free Consultation</a></li>
+                            <li><a class="" href="https://wa.me/2348145858941">Talk to a Web Expert <i class="fal fa-long-arrow-right"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
 
     <!--====== ABOUT PART ENDS ======-->
 
@@ -205,9 +251,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="section-title section-title-2  text-center">
-                        <h2 class="title">We Offer Web Solutions <span>Safe And <span>Sustainable</span></span></h2>
-                        <p>Use our skills and expertise to set your website in motion from scratch.</p>
+                    <div class="section-title section-title-2 text-center">
+                        <h2 class="title">Website Solutions <span>for Small <span>Businesses in Lagos</span></span></h2>
+                        <p>We provide expert <strong>website design for small businesses in Lagos</strong>, helping brands establish a strong online presence.</p>
                     </div>
                 </div>
             </div>
@@ -216,33 +262,38 @@
                     <div class="features-item text-center white-bg mt-30 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="0ms">
                         <i class="fal fa-pencil-ruler"></i>
                         <h4 class="title">Logo & Branding</h4>
-                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                        <p>Create a strong brand identity that sets you apart.</p>
+                        <a href="{% url 'about' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-7">
                     <div class="features-item text-center white-bg mt-30 item-2 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="300ms">
                         <i class="fal fa-desktop"></i>
                         <h4 class="title">Website Design</h4>
-                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                        <p>Custom-designed, mobile-friendly websites tailored for your business needs.</p>
+                        <a href="{% url 'about' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-7">
                     <div class="features-item text-center white-bg mt-30 item-3 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="600ms">
                         <i class="fal fa-shopping-cart"></i>
                         <h4 class="title">E-commerce</h4>
-                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                        <p>Start selling online with our scalable and secure e-commerce solutions.</p>
+                        <a href="{% url 'about' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-7">
                     <div class="features-item text-center white-bg mt-30 item-4 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="900ms">
                         <i class="fal fa-browser"></i>
-                        <h4 class="title">Web Application</h4>
-                        <a href="{% url 'contact' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
+                        <h4 class="title">Web Applications</h4>
+                        <p>Custom web applications that enhance business efficiency and growth.</p>
+                        <a href="{% url 'about' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
 
     <!--====== FEATURES PART ENDS ======-->
 
@@ -305,6 +356,53 @@
                     </div>
                 </div>
             </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="project-case-item mt-30">
+                        <div class="project-case-thumb">
+                            <img src="{% static 'images/phat-krusher.png' %}" alt="">
+                            <i class="fal fa-stars"></i>
+                        </div>
+                        <div class="project-case-content text-center">
+                            <img src="{% static 'images/project-shadow.png' %}" alt="">
+                            <h4 class="title">Phat-Krusher </h4>
+                            <span>Book Publishing</span>
+                            <p>The Radical Phat-Krusher Productions, an independent publisher, provides books, fitness, nutrition, and family counseling to support a balanced lifestyle.</p>
+                            <a href="https://phatkrusher.com/" target="_blank">Explore <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="project-case-item mt-30">
+                        <div class="project-case-thumb">
+                            <img src="{% static 'images/find-us.png' %}" alt="">
+                            <i class="fal fa-stars"></i>
+                        </div>
+                        <div class="project-case-content text-center">
+                            <img src="{% static 'images/project-shadow.png' %}" alt="">
+                            <h4 class="title">Findus </h4>
+                            <span>Craftmen Seeking Application</span>
+                            <p>Findus is a mobile application that helps users who are tired of endlessly searching the internet to quickly find the right craftsman and skilled talents in their neighborhood</p>
+                            <a href="https://apps.apple.com/ng/app/find-us-pro/id6448033894" target="_blank">Explore <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="project-case-item mt-30">
+                        <div class="project-case-thumb">
+                            <img src="{% static 'images/Skyline-builders.png' %}" alt="">
+                            <i class="fal fa-stars"></i>
+                        </div>
+                        <div class="project-case-content text-center">
+                            <img src="{% static 'images/project-shadow.png' %}" alt="">
+                            <h4 class="title">Skyline </h4>
+                            <span>Construction</span>
+                            <p>Skyline Builders is a leading infrastructure consulting firm, which works closely with clients to address complex challenges and build enduring building legacies for the future.</p>
+                            <a href="https://skylinebuilders-construction-group.com/" target="_blank">Explore <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -317,13 +415,13 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="fact-item mt-30">
-                        <h3 class="title"><span class="counter">50</span> +</h3>
+                        <h3 class="title"><span class="counter">600</span> +</h3>
                         <span>Project Delivered</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="fact-item mt-30">
-                        <h3 class="title"><span class="counter">35</span> +</h3>
+                        <h3 class="title"><span class="counter">600</span> +</h3>
                         <span>Happy Clients</span>
                     </div>
                 </div>
@@ -466,7 +564,7 @@
             <div class="row testinonials-active">
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/find-us-logo.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Untitled_design-removebg-preview.png' %}" alt="testimonial">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -485,7 +583,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/gladlenprofood-logo.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods-removebg-preview.png' %}" alt="testimonial">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -504,7 +602,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/thehub-logo.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__2_-removebg-preview.png' %}" alt="testimonial">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -523,7 +621,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/degentrlized-logo.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__1_-removebg-preview.png' %}" alt="testimonial">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -542,7 +640,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/maxine&max-logo.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__3_-removebg-preview.png' %}" alt="testimonial">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -556,6 +654,45 @@
                         </div>
                         <p>For any issue they responded promptly and the service is brilliant. I would highly recommend Neoeffectz Integrated Solutions for any website design</p>
                         <h6 class="title">Groom | Maxine & Ma’aku</h6>
+                        <i class="fal fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item white-bg text-center mt-70">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__4_-removebg-preview.png' %}" alt="testimonial">
+                        <div class="star d-flex justify-content-center">
+                            <span>(</span>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span>)</span>
+                        </div>
+                        
+                        <p>Tell the amazing team I truly love everything they do and deeply appreciate every effort to meet my request. Thanks a lot, wonderful Team!</p>
+                        <h6 class="title">Executive Sales and Marketing Planner Operator</h6>
+                        <i class="fal fa-quote-right"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="testimonial-item white-bg text-center mt-70">
+                        <img src="{% static 'images/Untitled_design__2_-removebg-preview.png' %}" alt="testimonial">
+                        <div class="star d-flex justify-content-center">
+                            <span>(</span>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span>)</span>
+                        </div>
+                        <p>I can't express how relieved we are to have found GeotechSynergy after being scammed. Their honesty and dedication restored our trust.</p>
+                        <h6 class="title">CEO Phat-Krusher</h6>
                         <i class="fal fa-quote-right"></i>
                     </div>
                 </div>
@@ -607,47 +744,7 @@
 
     <!--====== BRAND PART START ======-->
 
-    <div class="brand-area pb-130">
-        <div class="container">
-            <div class="row brand-active">
-                <div class="col-lg-2">
-                    <div class="brand-item text-center">
-                        <img src="{% static 'images/findus-brand.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="brand-item text-center">
-                        <img src="{% static 'images/gladlenfood-brand.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="brand-item text-center">
-                        <img src="{% static 'images/thehub-brand.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="brand-item text-center">
-                        <img src="{% static 'images/maxine-brand.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="brand-item text-center">
-                        <img src="{% static 'images/degentralized-brand.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="brand-item text-center">
-                        <img src="{% static 'images/allen-brand.png' %}" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                    <div class="brand-item text-center">
-                        <img src="{% static 'images/allen-brand.png' %}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <!--====== BRAND PART ENDS ======-->
 
@@ -661,7 +758,7 @@
             <div class="col-lg-12">
                 <div class="footer-copyright">
                     <span><i class="fal fa-phone-office"></i> +2348145858941</span>
-                    <p>Copyright ©2022. All Rights Reserved by Neoeffects</p>
+                    <p>Copyright ©2025. All Rights Reserved by Neoeffects</p>
                 </div>
                 <div class="back-top">
                     <a href="#" class="back-to-top">
@@ -669,9 +766,33 @@
                     </a>
                 </div>
             </div>
+            <div id="whatsapp-chat">
+                <a href="https://wa.me/2348012345678" target="_blank">
+                    <img src="{% static 'images/whatsapp.png' %}" alt="Chat with us">
+                </a>
+            </div>
+            
+            <style>
+                #whatsapp-chat {
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    z-index: 1000;
+                }
+                #whatsapp-chat img {
+                    width: 50px;
+                    height: 50px;
+                    cursor: pointer;
+                }
+            </style>
+            
         </div>
     </div>
 </footer> 
+
+
+
+  
 
 <!--====== FOOTER PART ENDS ======-->
 
