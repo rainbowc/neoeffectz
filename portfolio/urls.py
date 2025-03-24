@@ -5,10 +5,17 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.views.static import serve
 from django.urls import re_path
+from django.contrib import sitemaps
+from django.contrib.sitemaps.views import sitemap
+from neoeffects.sitemaps import StaticViewSitemap
+
+
+sitemaps_dict = {"static": StaticViewSitemap()}
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("neoeffects.urls")),
+    path("sitemap.xml", sitemap, {"sitemaps": sitemaps_dict}, name="django.contrib.sitemaps.views.sitemap"),
     
 ]
 
