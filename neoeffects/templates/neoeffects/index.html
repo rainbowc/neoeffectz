@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- SEO Optimization -->
-    <meta name="description" content="Neoeffectz offers expert website design for small businesses in Lagos. Get a high-converting website that grows your brand and attracts customers.">
+    <meta name="description" content="Neoeffectz offers expert website design for small businesses in Lagos. Get a high-converting, mobile-friendly website that grows your brand, attracts customers, and boosts sales.">
     <meta name="keywords" content="Website design for small businesses in Lagos, small business web design, Lagos website development, affordable web design Lagos, SEO services Nigeria">
     <meta name="author" content="Neoeffectz">
 
@@ -18,25 +18,52 @@
     <meta property="og:description" content="Get a professional website for your small business in Lagos. Neoeffectz provides high-quality, SEO-optimized web design that drives sales and visibility.">
     <meta property="og:image" content="{% static 'images/seo-preview.png' %}">
     <meta property="og:url" content="https://neoeffectz-1wga.onrender.com">
+    <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="google-site-verification" content="vzKYrjTpU8zg_37La1I1bufc2OwFGf5FvM-gKi-EfTo" />
+    
 
     <link rel="canonical" href="https://neoeffectz-1wga.onrender.com/">
 
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
-          "@type": "Organization",
+          "@type": "LocalBusiness",
           "name": "Neoeffectz Integrated Solutions",
           "url": "https://neoeffectz-1wga.onrender.com/",
           "logo": "https://neoeffectz-1wga.onrender.com/static/images/logo.png",
+          "description": "Neoeffectz Integrated Solutions specializes in website design for small businesses in Lagos, creating SEO-friendly and high-converting websites to help brands grow online.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "15, gbenga ashabi street, oworoshoki, Kosofe, Lagos 100221, Lagos",
+            "addressLocality": "Lagos",
+            "addressCountry": "NG"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+2348145858941",
+            "contactType": "customer service"
+          },
           "sameAs": [
-            "https://www.facebook.com/yourpage",
-            "https://www.instagram.com/yourpage",
-            "https://www.linkedin.com/company/yourpage"
+            "https://web.facebook.com/profile.php?id=61558313637951",
+            "https://www.instagram.com/neoeffectz/",
+            "https://x.com/NeoeffectzS"
+          ],
+          "service": [
+            {
+              "@type": "Service",
+              "name": "Website Design for Small Businesses in Lagos",
+              "description": "We create professional, high-quality websites tailored for small businesses in Lagos to help them attract more customers."
+            },
+            {
+              "@type": "Service",
+              "name": "E-commerce Website Development",
+              "description": "Get a fully optimized e-commerce website with seamless payment integration and a great user experience."
+            }
           ]
         }
         </script>
+        
         
 
 
@@ -50,35 +77,23 @@
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="{% static 'images/logo.png' %}" type="image/png">
 
-    <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <!--====== Bootstrap css (essential, load normally) ======-->
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
 
-    <!--====== animate css ======-->
-    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+<!--====== FontAwesome (essential, load normally) ======-->
+<link rel="stylesheet" href="{% static 'css/all.css' %}">
 
-    <!--====== Fontawesome css ======-->
-    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+<!--====== Non-essential CSS (deferred) ======-->
+<link rel="stylesheet" href="{% static 'css/animate.css' %}" media="print" onload="this.onload=null;this.media='all';">
+<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" media="print" onload="this.onload=null;this.media='all';">
+<link rel="stylesheet" href="{% static 'css/nice-select.css' %}" media="print" onload="this.onload=null;this.media='all';">
+<link rel="stylesheet" href="{% static 'css/ion.rangeSlider.min.css' %}" media="print" onload="this.onload=null;this.media='all';">
+<link rel="stylesheet" href="{% static 'css/slick.css' %}" media="print" onload="this.onload=null;this.media='all';">
+<link rel="stylesheet" href="{% static 'css/default.css' %}" media="print" onload="this.onload=null;this.media='all';">
+<link rel="stylesheet" href="{% static 'css/style.css' %}" media="print" onload="this.onload=null;this.media='all';">
 
-    <!--====== Magnific Popup css ======-->
-    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
-
-    <!--====== nice select css ======-->
-    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
-
-    <!--====== rangeSlider css ======-->
-    <link rel="stylesheet" href="{% static 'css/ion.rangeSlider.min.css' %}">
-
-    <!--====== Slick css ======-->
-    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
-
-    <!--====== Default css ======-->
-    <link rel="stylesheet" href="{% static 'css/default.css' %}">
-
-    <!--====== Style css ======-->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+<!--====== External FontAwesome (essential, load normally) ======-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 
 </head>
@@ -183,7 +198,7 @@
                     <div class="col-lg-7 col-md-9">
                         <div class="banner-content">
                             <h1 class="title wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1s">
-                                Website Design for Small Businesses in Lagos –  
+                                Website Design for Small Businesses –  
                                 Build a Strong Online Presence
                             </h1>
                             <span class="wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.5s">
@@ -224,7 +239,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-thumb text-center">
-                        <img src="{% static 'images/a-man-holding-phone.png' %}" alt="Professional web designer in Lagos" style="border-radius: 30px;">
+                        <img src="{% static 'images/a-man-holding-phone.webp' %}" alt="Professional web designer in Lagos" style="border-radius: 30px;">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -254,7 +269,7 @@
                 <div class="col-lg-6">
                     <div class="section-title section-title-2 text-center">
                         <h2 class="title">Website Solutions <span>for Small <span>Businesses in Lagos</span></span></h2>
-                        <p>We provide expert <strong>website design for small businesses in Lagos</strong>, helping brands establish a strong online presence.</p>
+                        <p>At Neoeffectz Integrated Solutions, our team of passionate developers and designers is committed to delivering top-tier <strong>website design for small businesses in Lagos.</strong> Our expertise spans across e-commerce solutions, custom web development, and modern UI/UX design.</p>
                     </div>
                 </div>
             </div>
@@ -271,7 +286,7 @@
                     <div class="features-item text-center white-bg mt-30 item-2 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="300ms">
                         <i class="fal fa-desktop"></i>
                         <h4 class="title">Website Design</h4>
-                        <p>Custom-designed, mobile-friendly websites tailored for your business needs.</p>
+                        <p>Custom-designed, mobile-friendly websites tailored for your business.</p>
                         <a href="{% url 'about' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -287,7 +302,7 @@
                     <div class="features-item text-center white-bg mt-30 item-4 wow fadeIn animated" data-wow-duration="2000ms" data-wow-delay="900ms">
                         <i class="fal fa-browser"></i>
                         <h4 class="title">Web Applications</h4>
-                        <p>Custom web applications that enhance business efficiency and growth.</p>
+                        <p>Custom web applications that enhance business efficiency.</p>
                         <a href="{% url 'about' %}">Read More <i class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -314,7 +329,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="project-case-item mt-30">
                         <div class="project-case-thumb">
-                            <img src="{% static 'images/loftyheights.png' %}" alt="">
+                            <img src="{% static 'images/loftyheights.webp' %}" alt="Small business in Lagos thriving with a custom website by Neoeffectz">
                             <i class="fal fa-stars"></i>
                         </div>
                         <div class="project-case-content text-center">
@@ -329,7 +344,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="project-case-item mt-30">
                         <div class="project-case-thumb">
-                            <img src="{% static 'images/gladlenpro.png' %}" alt="">
+                            <img src="{% static 'images/gladlenpro.webp' %}" alt="E-commerce store in Nigeria boosted sales with our web design expertise">
                             <i class="fal fa-stars"></i>
                         </div>
                         <div class="project-case-content text-center">
@@ -344,7 +359,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="project-case-item mt-30">
                         <div class="project-case-thumb">
-                            <img src="{% static 'images/degentralized.png' %}" alt="">
+                            <img src="{% static 'images/degentralized.webp' %}" alt="Local business website designed by Neoeffectz, attracting more customers">
                             <i class="fal fa-stars"></i>
                         </div>
                         <div class="project-case-content text-center">
@@ -361,7 +376,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="project-case-item mt-30">
                         <div class="project-case-thumb">
-                            <img src="{% static 'images/phat-krusher.png' %}" alt="">
+                            <img src="{% static 'images/phat-krusher.webp' %}" alt="Entrepreneur’s brand transformed with professional website design in Lagos">
                             <i class="fal fa-stars"></i>
                         </div>
                         <div class="project-case-content text-center">
@@ -376,7 +391,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="project-case-item mt-30">
                         <div class="project-case-thumb">
-                            <img src="{% static 'images/find-us.png' %}" alt="">
+                            <img src="{% static 'images/find-us.webp' %}" alt="Successful Lagos startup scaling with a high-performing website">
                             <i class="fal fa-stars"></i>
                         </div>
                         <div class="project-case-content text-center">
@@ -391,7 +406,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="project-case-item mt-30">
                         <div class="project-case-thumb">
-                            <img src="{% static 'images/Skyline-builders.png' %}" alt="">
+                            <img src="{% static 'images/Skyline-builders.webp' %}" alt="Corporate website redesign leading to business growth in Nigeria">
                             <i class="fal fa-stars"></i>
                         </div>
                         <div class="project-case-content text-center">
@@ -515,7 +530,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <div class="quote-thumb">
-                        <img src="{% static 'images/get-quote.png' %}" alt="quote">
+                        <img src="{% static 'images/get-quote.webp' %}" alt="Request a free quote for website design for small businesses in Lagos">
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -565,7 +580,7 @@
             <div class="row testinonials-active">
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/Untitled_design-removebg-preview.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Untitled_design-removebg-preview.webp' %}" alt="Happy client testimonial – Neoeffectz web design services in Lagos">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -584,7 +599,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/Gladlen_Pro_Foods-removebg-preview.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods-removebg-preview.webp' %}" alt="Customer review praising our website design for small businesses">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -603,7 +618,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/Gladlen_Pro_Foods__2_-removebg-preview.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__2_-removebg-preview.webp' %}" alt="Business owner sharing positive experience with Neoeffectz web solutions">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -622,7 +637,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/Gladlen_Pro_Foods__1_-removebg-preview.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__1_-removebg-preview.webp' %}" alt="E-commerce client testimonial highlighting increased sales with our website">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -641,7 +656,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/Gladlen_Pro_Foods__3_-removebg-preview.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__3_-removebg-preview.webp' %}" alt="Satisfied client recommending Neoeffectz for professional web design">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -660,7 +675,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/Gladlen_Pro_Foods__4_-removebg-preview.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Gladlen_Pro_Foods__4_-removebg-preview.webp' %}" alt="Positive feedback from Lagos entrepreneurs using our digital services">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -680,7 +695,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="testimonial-item white-bg text-center mt-70">
-                        <img src="{% static 'images/Untitled_design__2_-removebg-preview.png' %}" alt="testimonial">
+                        <img src="{% static 'images/Untitled_design__2_-removebg-preview.webp' %}" alt="testimonial">
                         <div class="star d-flex justify-content-center">
                             <span>(</span>
                             <ul>
@@ -797,40 +812,26 @@
 
 <!--====== FOOTER PART ENDS ======-->
 
-<!--====== jquery js ======-->
-<script src="{% static 'js/vendor/modernizr-3.6.0.min.js' %}"></script>
+<!-- Load jQuery first (not deferred) -->
 <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
 
-<!--====== Bootstrap js ======-->
-<script src="{% static 'js/bootstrap.min.js' %}"></script>
-<script src="{% static 'js/popper.min.js' %}"></script>
+<!-- Modernizr should load first to detect browser features -->
+<script src="{% static 'js/vendor/modernizr-3.6.0.min.js' %}"></script>
 
-<!--====== Slick js ======-->
-<script src="{% static 'js/slick.min.js' %}"></script>
 
-<!--====== counterup js ======-->
-<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<!-- Defer non-essential scripts -->
+<script src="{% static 'js/bootstrap.min.js' %}" defer></script>
+<script src="{% static 'js/popper.min.js' %}" defer></script>
+<script src="{% static 'js/slick.min.js' %}" defer></script>
+<script src="{% static 'js/jquery.counterup.min.js' %}" defer></script>
+<script src="{% static 'js/jquery.nice-select.min.js' %}" defer></script>
+<script src="{% static 'js/waypoints.min.js' %}" defer></script>
+<script src="{% static 'js/ion.rangeSlider.min.js' %}" defer></script>
+<script src="{% static 'js/wow.min.js' %}" defer></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}" defer></script>
+<script src="{% static 'js/ajax-contact.js' %}" defer></script>
+<script src="{% static 'js/main.js' %}" defer></script>
 
-<!--====== nice select js ======-->
-<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
-
-<!--====== waypoints js ======-->
-<script src="{% static 'js/waypoints.min.js' %}"></script>
-
-<!--====== rangeSlider js ======-->
-<script src="{% static 'js/ion.rangeSlider.min.js' %}"></script>
-
-<!--====== wow js ======-->
-<script src="{% static 'js/wow.min.js' %}"></script>
-
-<!--====== Magnific Popup js ======-->
-<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
-
-<!--====== Ajax Contact js ======-->
-<script src="{% static 'js/ajax-contact.js' %}"></script>
-
-<!--====== Main js ======-->
-<script src="{% static 'js/main.js' %}"></script>
 
 </body>
 </html>
